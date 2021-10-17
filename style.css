@@ -1,0 +1,147 @@
+.navbar .navbar-nav {
+  margin-left: auto;
+  font-weight: normal;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  padding: 0;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .nav-item {
+  margin-left: 5px;
+}
+.navbar .navbar-brand {
+  font-weight: normal;
+  font-size: 25px;
+}
+.navbar .nav-link {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 0;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+.bg-container {
+  background-image: url(slike/bg.jpg);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  padding: 2%;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.omeni {
+  background-color: rgba(white, 0.1);
+  margin: auto auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 600px;
+  height: 1050px;
+}
+.omeni:before {
+  background-image: url("slike/bg.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  filter: blur(2px);
+}
+.omeni2 {
+  text-align: center;
+  font-size: 17px;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  background: rgb(30, 30, 40);
+}
+form {
+  max-width: 420px;
+  margin: 40px auto;
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 12px;
+  background-color: transparent;
+  border: 2px solid rgb(50, 175, 216);
+  transition: all 0.3s;
+  padding: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid rgb(50, 175, 216);
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: rgb(50, 175, 216);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: rgb(0, 0, 0);
+}
+.mateo {
+  position: absolute;
+}
+.kontakt {
+  padding-top: 8em;
+}
+.email {
+  text-align: center;
+  color: blue;
+}

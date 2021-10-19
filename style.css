@@ -124,7 +124,7 @@ textarea {
   border-radius: 5px;
   border: 0;
   cursor: pointer;
-  color: white;
+  color: black;
   font-size: 14px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -133,7 +133,7 @@ textarea {
   font-weight: 700;
 }
 [type="submit"]:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(0, 104, 145);
 }
 .mateo {
   position: absolute;
